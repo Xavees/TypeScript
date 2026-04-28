@@ -65,7 +65,7 @@ O objetivo é consolidar conhecimento em tipagem estática, boas práticas e des
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/seu-usuario/curso-typescript.git
+git clone https://github.com/Xavees/curso-typescript.git
 ```
 
 ### 2. Instalar dependências
