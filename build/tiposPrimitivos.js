@@ -1,41 +1,20 @@
-let valor1:Number
-
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let valor1;
 valor1 = 30;
-
 console.log(valor1);
-
-let frase:String
-
+let frase;
 frase = "Olá , seja bem vindo. Esse é o tipo String do TypeScript.";
 console.log(frase);
-
-let typeInference 
-
+let typeInference;
 typeInference = "O typeScript vai deduzir que é tipo String, por eu estar adicionando uma String a variavel";
-
 console.log(typeInference);
-
-let valor3:Number = 40;
-
+let valor3 = 40;
 console.log("Adicionando o valor na declaração da variavel" + valor3);
-
-
-let userId:String | Number;
-
-
+let userId;
 console.log("Usando o operador logico || da pra definir a variavel sendo os dois, tanto String quanto Number");
-
-
-
-let produto:any = "any";
-
-console.log (" o Tipo primitivo any literalmente é o padrão do JavaScript que aceita qualquer tipo primitivo.");
-
-
-let mercado:boolean = true
-
-console.log ("Boolean, literalmente true or false.");
-
-
+let produto = "any";
+console.log(" o Tipo primitivo any literalmente é o padrão do JavaScript que aceita qualquer tipo primitivo.");
+let mercado = true;
+console.log("Boolean, literalmente true or false.");
 console.log(typeof mercado);
- 
