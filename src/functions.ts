@@ -21,3 +21,53 @@ function soma(num1:number , num2:number):number {
 }
 
 soma(1, 2);
+
+
+
+
+
+
+
+// Arrow Functions 
+
+const retornoAPI = (url:String):void => {
+    console.log("URL DA API " + url);
+
+
+}
+retornoAPI("HTTPS.XAVEESDELOCHO.COM.BR");
+
+
+// Metodo com Parametros Default.
+
+
+function cadastro(nome:String , email:String , idade?:number , senha = "12345678" ):String {
+
+    let objeto = {nome, email , senha};
+
+    console.log(objeto)
+   return "Obrigado por se cadastrar  :" + nome + " com o Email " + email;
+
+
+}
+
+cadastro("Xavees" , "Luisfernando1337x@gmail.com");
+
+
+
+
+// Rest Params in Functions.
+
+
+
+
+function totalVendas(...vendas:Number []) : void{
+    const qtdVendas = vendas.length;
+
+    console.log("A quantidade de vendas foi de " + qtdVendas);
+
+
+}
+
+totalVendas();
+// passe quantos parametros quiser...

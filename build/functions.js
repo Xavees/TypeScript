@@ -13,3 +13,15 @@ function soma(num1, num2) {
     return resultado;
 }
 soma(1, 2);
+// Arrow Functions 
+const retornoAPI = (url) => {
+    console.log("URL DA API " + url);
+};
+retornoAPI("HTTPS.XAVEESDELOCHO.COM.BR");
+// Metodo com Parametros Default.
+function cadastro(nome, email, idade, senha = "12345678") {
+    let objeto = { nome, email, senha };
+    console.log(objeto);
+    return "Obrigado por se cadastrar  :" + nome + " com o Email " + email;
+}
+cadastro("Xavees", "Luisfernando1337x@gmail.com");
