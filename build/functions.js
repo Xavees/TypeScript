@@ -25,3 +25,10 @@ function cadastro(nome, email, idade, senha = "12345678") {
     return "Obrigado por se cadastrar  :" + nome + " com o Email " + email;
 }
 cadastro("Xavees", "Luisfernando1337x@gmail.com");
+// Rest Params in Functions.
+function totalVendas(...vendas) {
+    const qtdVendas = vendas.length;
+    console.log("A quantidade de vendas foi de " + qtdVendas);
+}
+totalVendas();
+// passe quantos parametros quiser...
