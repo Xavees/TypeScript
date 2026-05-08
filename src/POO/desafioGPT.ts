@@ -25,6 +25,8 @@
 */
 
 
+// desafio que o gpt me propos e eu quebrei a cabeça pra fazer , mas consegui!
+
 
 abstract class Personagem {
     readonly id:number
