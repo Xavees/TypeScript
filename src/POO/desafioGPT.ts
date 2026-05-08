@@ -29,7 +29,7 @@
 
 
 abstract class Personagem {
-    readonly id:number
+    readonly id:number 
     protected nome:string
     private vida:number
 
