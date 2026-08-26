@@ -143,7 +143,7 @@ Durante esse curso, desenvolvi:
 ---
 
 ## 🚧 Status
-📍 Em andamento  
+📍 Concluído   
 
 ---
 
