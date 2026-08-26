@@ -1,0 +1,8 @@
+function teste<T>(valor: T): T
+               ↑
+       Type Parameter
+
+
+teste<string>("Jill")
+                ↑
+            Type Argument       

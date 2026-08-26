@@ -1,0 +1,35 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/*
+RELAÇÕES ENTRE CLASSES
+
+Classes podem se relacionar de diferentes maneiras.
+
+HERANÇA:
+Representa uma relação "É UM".
+
+Ex:
+Policial É UMA Pessoa.
+
+class Policial extends Pessoa {}
+
+COMPOSIÇÃO:
+Representa uma relação "TEM UM".
+
+Ex:
+Policial TEM UMA Arma.
+
+class Policial {
+    constructor(public arma: Arma) {}
+}
+
+A composição permite separar responsabilidades entre
+diferentes classes e tornar o código mais modular.
+
+REGRA MENTAL:
+
+"É UM"  -> pense em HERANÇA
+"TEM UM" -> pense em COMPOSIÇÃO
+
+Nem toda relação entre classes precisa de extends.
+*/ 

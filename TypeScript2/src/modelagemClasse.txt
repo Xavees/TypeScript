@@ -1,0 +1,23 @@
+DEPENDÊNCIA
+"eu uso você"
+
+        ↓
+
+ASSOCIAÇÃO
+"eu me relaciono com você"
+
+        ↓
+
+AGREGAÇÃO
+"eu tenho você,
+mas você vive sem mim"
+
+        ↓
+
+COMPOSIÇÃO
+"você é parte de mim"
+
+        ↓
+
+HERANÇA
+"eu sou um tipo de você"
